@@ -1,0 +1,6 @@
+from re import M
+
+
+cnt = int(input())
+num = list(map(int, input().split()))
+print(min(num), max(num))
