@@ -1,3 +1,4 @@
-a, b, c, d, e, f = map(int, input().split())
-
-print(1-a, 1-b, 2-c, 2-d, 2-e, 8-f)
+cp = [1, 1, 2, 2, 2, 8]
+li = list(map(int, input().split()))
+for i in range(6):
+    print(cp[i]-li[i], end='')
