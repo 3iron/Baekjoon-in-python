@@ -1,2 +1,2 @@
-print(196)
-print('3iron')
+print("53")
+print("3iron")
