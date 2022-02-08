@@ -14,5 +14,5 @@ a, i = map(int, input().split())
 # 1. round(실수, 소수점 n번째)
 # 2. n = i * a
 
-print(round((i-1)*a, 1))
+print(round((i-1)*a+1, 1))
 
