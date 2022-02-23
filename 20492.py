@@ -1,5 +1,5 @@
 n = int(input())
-print(round(n*0.78)," ",round(n*0.8 + n*0.2*0.78))
+print(round(n*0.78),round(n*0.8 + n*0.2*0.78))
 
 # 상금의 80%를 필요 경비로 인정
 # n*0.8
