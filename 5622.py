@@ -18,7 +18,14 @@ for i in range(len(dial)):       # len(dial) = 8, i=0 일 때 dial[0]은 'abc'
             # print(r)
             print(i+2)
             # answer = i+1
-            
+
+
+# 만든 것 : 각 문자가 어떤 숫자에 위치하는지
+# 해야할 것 : 문자 2개 ex) ab, cd 등 각자 파싱해서 숫자로 바꾸기
+
+
+# for n in range(len(a)):
+#     print(a[n])            
         
         
         # if a == p[j:r] :
