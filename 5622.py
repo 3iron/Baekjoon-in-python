@@ -11,13 +11,14 @@ for i in range(len(dial)):       # len(dial) = 8, i=0 일 때 dial[0]은 'abc'
     for j in range(len(p)):      # len(p) = 3,  j=0 일 때 p[0:1] 은 a
         r = r + 1
         # print(p[j:r])
-        
-        if a == p[j:r] :
-            # print(p[j:r])
-            # print(j)
-            # print(r)
-            print(i+2)
-            # answer = i+1
+        for n in range(len(a)):
+            if a[n] == p[j:r] :
+                # print(p[j:r])
+                # print(j)
+                # print(r)
+                # print(i+3)
+                answer += i+3
+                # answer = i+1
 
 
 # 만든 것 : 각 문자가 어떤 숫자에 위치하는지
@@ -33,7 +34,7 @@ for i in range(len(dial)):       # len(dial) = 8, i=0 일 때 dial[0]은 'abc'
         # else :
         #     r += 1    
 
-# print (answer)
+print (answer)
 # print(len(dial))
 # print(p)
 # print(a)
