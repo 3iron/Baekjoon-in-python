@@ -10,5 +10,5 @@ while True:
     elif a%b == 0:
         print('multiple')
     else:
-        print('neither')
+        print('neither') 
         
