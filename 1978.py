@@ -1,22 +1,18 @@
 n = int(input())
 arr = list(map(int, input().split()))
-cnt = 0
 t = 0
+# answer = 0
+
 
 for i in range(0, len(arr)+1):
-    # print(arr[i]) # 1 3 5 7
+    cnt = 0
     for t in range(1, arr[i]+1):
-        #if (arr[i]//t > 0):  # i = 0 일 때 , 1//1 > 0
-        #    cnt += 1
         if (arr[i]%t == 0):
-            print(arr[i], t)
-            cnt +=1 
-            # print(cnt)
-        # print(cnt)
-     
-    
-#    if (arr[i]//i == 1):
-#        print(arr[i])
+            # print(arr[i], t) # i=0, t = 1 -> 1, 1.  // i=1, t=1, t=3 
+            cnt +=1
+        if cnt == 2:
+            print(arr[i], " 가 소수에요")
+            # answer += 1
 
-
-# i = 1 일 때, arr[1]//2 =
+# print(answer)
+        
