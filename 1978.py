@@ -31,3 +31,31 @@ for x in data:
       break
 
 print(count)
+
+
+# # 다시 차근차근 풀기
+# n = int(input())
+# arr = list(map(int, input().split()))
+# t = 0
+# answer = 0
+
+
+# for i in range(0, len(arr)):
+#     print("i",i)
+#     # print("len(arr)=",len(arr))
+#     answer+=1 
+#     # print(answer)
+#     print(arr[i])
+    
+#     # cnt = 0
+#     # for t in range(1, len(arr[i])-1):
+#     #     if (arr[i]%t == 0):
+#     #         # print(arr[i], t) 
+#     #         cnt +=1
+#     # if cnt == 2:
+#     #     print(arr[i], " 가 소수에요")
+#     #     #answer += 1
+#     #     break
+ 
+# #print(answer)
+        
