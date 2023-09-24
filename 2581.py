@@ -3,6 +3,7 @@ n = int(input())
 sumK = 0 # 소수의 합
 minK = 0 # 소수의 최솟값
 arr = []
+answer = 0
 
 # m 이상 n 이하의 자연수
 for i in range(m, n+1):
@@ -19,9 +20,12 @@ for i in range(m, n+1):
         sumK += k
         arr.append(i)
         minK = min(arr)
-            
+
             
 # print("소수의 합은 ", sumK)
 # print("소수의 최솟값은 ", minK)
-print(sumK)
-print(minK)
+if (sumK == 0 and minK == 0):
+    print(-1)
+else:
+    print(sumK)
+    print(minK)
