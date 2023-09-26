@@ -1,8 +1,8 @@
-num = int(input())
+n = int(input())
 i = 2
-while num > 1:
-    if num % i == 0:
-        num = num // i
+while n > 1:
+    if n % i == 0:
+        n = n // i
         print(i)
     else:
         i += 1
