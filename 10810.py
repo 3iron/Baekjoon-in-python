@@ -6,4 +6,4 @@ for _ in range(M):
     for idx in range(i - 1, j):
         basket[idx] = k
 
-print(*basket)
+print(*basket)     // test
